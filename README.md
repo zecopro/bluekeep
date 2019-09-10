@@ -34,13 +34,14 @@ wget https://raw.githubusercontent.com/rapid7/metasploit-framework/edb7e20221e20
 
 
 الان تم التنصيب يجب اعادة تشغيل قواعدالبيانات وتشغيل الميتا سبلويت لاستخدمها عن طريق الاوامر الاتية 
+
 service postgresql start
 
 msfdb init 
 
 msfconsole
 
-الان بعض الاوامر المهمة لدخول للثغرة واستخدامها
+الان بعض الاوامر المهمة بعد الدخول للثغرة وقبل استخدامها
 
 
 set target 1
