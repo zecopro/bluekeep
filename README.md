@@ -17,7 +17,7 @@ apt-get upgrade
 
 ثم تنفيذ الاوامر الاتية
 
-cd cd /usr/share/metasploit-framework/lib/msf/core/exploit/
+cd /usr/share/metasploit-framework/lib/msf/core/exploit/
 
 
 rm rdp.rb
